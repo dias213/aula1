@@ -1,0 +1,25 @@
+
+
+    $bgCinza: linear-gradient (20deg, #232526 0%, #424345 100%);
+    $bgAzul: linear-gradient (20deg, #3a6186 50%, #89253e 50% );
+
+
+
+page-login {
+
+
+    .boxLogin{       
+        margin-left: 140px;
+    }
+    .enviar{
+        background: bgAzul;
+        color: bgCinza;
+        box-shadow: 10px 5px blue; 
+    }
+    .enviar:hover{
+        background: #000;
+        color:#fff;
+        box-shadow: 10px 20px rgb(231, 6, 54); 
+    }
+
+}
